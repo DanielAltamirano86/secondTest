@@ -1,0 +1,9 @@
+.root{
+    -fx-background-color: red;
+
+}
+
+.title{
+    -fx-font: 100px Tahoma;
+
+}

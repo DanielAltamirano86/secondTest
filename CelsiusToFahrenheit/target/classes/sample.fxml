@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane stylesheets="style.css" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Temperature.Controller">
+   <children>
+      <Label styleClass="title" layoutX="245.0" layoutY="58.0" text="Celsius to Fahrenheit" />
+      <TextField fx:id="inp" layoutX="226.0" layoutY="138.0" promptText="Enter temperature in Celsius" />
+      <Label layoutX="100.0" layoutY="142.0" text="C" />
+      <Button fx:id="btn" layoutX="411.0" layoutY="138.0" mnemonicParsing="false" onAction="#onfunc" text="Convert" />
+      <Label fx:id="lbl" layoutX="101.0" layoutY="191.0" text="F" />
+   </children>
+</AnchorPane>
